@@ -8,6 +8,8 @@
 
 🔗 git clone https://github.com/Aang21/AangFbCr4ck
 
+🔗 rm -rf AangFbCr4ck
+
 # Run script
 
 🔗 cd AangFbCr4ck
