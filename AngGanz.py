@@ -1,12 +1,11 @@
 #!/usr/bin/python2
 # coding=utf-8
-# code by AangSans-Xyz
+# code by Yayan-XD
 # my facebook ( https://www.facebook.com/KM39453 )
 
 #      (C) Copyright 407 Authentic Exploit
 #      Rebuild Copyright Can't make u real programmer:)
-#      Coded By AangSans-Xyz.
-#      Copyright as Yayan-XD
+#      Coded By Yayan-XD
 
 import os
 try:
