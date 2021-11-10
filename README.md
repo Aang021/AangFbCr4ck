@@ -1,5 +1,3 @@
-# AangFbCr4ck
-
 # Install script on Termux
 
 
@@ -10,6 +8,7 @@
 🔗 pkg install git
 
 🔗 git clone https://github.com/Aang21/AangFbCr4ck
+
 
 # Run script
 
