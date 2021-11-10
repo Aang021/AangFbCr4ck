@@ -18,5 +18,5 @@
 
 🔗 ls
 
-🔗 python2 Aang.py
+🔗 python2 AngGanz.py
 
